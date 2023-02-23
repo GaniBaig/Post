@@ -1,0 +1,45 @@
+.card_container{
+width:100%;
+height:auto;
+display: flex;
+justify-content: center;
+}
+.card_post{
+width:70%;
+display: grid;
+gap: 2rem;
+border:solid 1px;
+border-radius: 5px;
+
+}
+path{
+    width:30px;
+}
+.h2{
+    padding-left:10%;
+}
+.card_image{
+width:100%;
+display: flex;
+justify-content: center;
+}
+.card_icons{
+display: flex;
+flex-direction: row;
+padding-left: 10%;
+}
+.image_init{
+    width:60%;
+    box-shadow: --p-border-depressed;
+
+}
+.fillred{
+color: red;
+}
+.nofill{
+    color:rgb(18, 37, 66)
+}
+.icon{
+    size:100px;
+    color:rgb(18, 37, 66)
+}
